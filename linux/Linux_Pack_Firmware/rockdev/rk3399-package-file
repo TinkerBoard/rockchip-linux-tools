@@ -12,7 +12,12 @@ misc		Image/misc.img
 boot		Image/boot.img
 recovery	Image/recovery.img
 rootfs		Image/rootfs.img
+<<<<<<< HEAD
 userdata:grow	Image/userdata.img
+=======
+oem		Image/oem.img
+userdata	Image/userdata.img
+>>>>>>> asus/rk3399pro_linux_release_v1.4.1_20201203
 # 要写入backup分区的文件就是自身（update.img）
 # SELF 是关键字，表示升级文件（update.img）自身
 # 在生成升级文件时，不加入SELF文件的内容，但在头部信息中有记录
